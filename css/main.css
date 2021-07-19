@@ -791,11 +791,6 @@ select{
     max-width:12em;
     margin:2em auto; } }
 
-@media (max-width: 368px){
-  .offer__item{
-    max-width:10em;
-    margin:1em auto; } }
-
 .retailers{
   background:url("../images/letailers/bg.jpg") no-repeat center top;
   min-height:55em;
