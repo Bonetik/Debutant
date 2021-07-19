@@ -507,8 +507,8 @@ select{
     -webkit-order:1;
     order:1;
     -webkit-box-flex:1;
-    -webkit-flex:1 0 50%;
-    flex:1 0 50%;
+    -webkit-flex:1 0 40%;
+    flex:1 0 40%;
     text-align:left; }
   .header__menu{
     display:none;
@@ -581,7 +581,7 @@ select{
   .header__user{
     padding-left:1em; }
   .header__link{
-    font-size:1em; } }
+    font-size:1.5em; } }
 
 .action{
   margin:10em 0;
