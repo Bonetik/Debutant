@@ -320,8 +320,7 @@ select{
   border-radius:2px; }
 
 .footer{
-  border-top:solid 1px rgba(32, 3, 42, 0.2);
-  margin-top:-10em; }
+  border-top:solid 1px rgba(32, 3, 42, 0.2); }
 
 .footer__inner{
     display:-webkit-box;
@@ -585,7 +584,6 @@ select{
     padding-left:1em; } }
 
 .action{
-  margin:10em 0;
   background:url("../images/letailers/bg.jpg") no-repeat center;
   min-height:27em;
   width:100%; }
