@@ -713,6 +713,7 @@ select{
   display:flex; }
 
 .offer__input-item{
+  background:#FFFFFF;
   max-width:18em;
   width:100%;
   font-size:1.5em;
@@ -720,6 +721,7 @@ select{
   padding:.5em 1em; }
 
 .offer__input-btn{
+  background:#FFFFFF;
   border:solid 1px rgba(50, 58, 66, 0.3);
   padding:.5em 1.6em;
   font-size:1.5em;
@@ -791,7 +793,10 @@ select{
   .offer__promotions-text{
     font-size:1em; }
   .offer__price-text{
-    font-size:2em; } }
+    font-size:2em; }
+  .offer__input-btn{
+    background:linear-gradient(45deg, #f8aa00, #ffee00);
+    color:#FFFFFF; } }
 
 @media (max-width: 678px){
   .offer__inner-item{
