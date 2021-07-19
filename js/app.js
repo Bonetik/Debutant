@@ -23,19 +23,23 @@ $(document).ready(function () {
       clickable: true
     },
     breakpoints: {
-      "@0.00": {
+      "@0.20": {
         slidesPerView: 1,
         spaceBetween: 0
       },
-      "@0.65": {
+      "@0.25": {
         slidesPerView: 2,
-        spaceBetween: 20
+        spaceBetween: 5
       },
-      "@0.95": {
+      "@0.75": {
         slidesPerView: 3,
         spaceBetween: 10
       },
-      "@1.15": {
+      "@1.00": {
+        slidesPerView: 4,
+        spaceBetween: 15
+      },
+      "@1.25": {
         slidesPerView: 4,
         spaceBetween: 15
       },
