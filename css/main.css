@@ -675,11 +675,17 @@ select{
   display:-webkit-box;
   display:-webkit-flex;
   display:flex;
-  -webkit-flex-wrap:wrap;
-  flex-wrap:wrap;
   -webkit-box-pack:justify;
   -webkit-justify-content:space-between;
   justify-content:space-between;
+  -webkit-flex-wrap:wrap;
+  flex-wrap:wrap; }
+
+.offer__inner-item{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+  grid-column-gap:3em;
+  grid-row-gap:3em;
   padding:1em 0; }
 
 .offer__item{
@@ -765,14 +771,21 @@ select{
   font-weight:bold;
   color:#b3b3b3; }
 
-@media (max-width: 987px){
-  .offer__item{
-    max-width:30em; } }
+@media (max-width: 1074px){
+  .offer__price-text{
+    font-size:2.5em; } }
+
+@media (max-width: 950px){
+  .offer__price-text{
+    font-size:2.2em; } }
+
+@media (max-width: 890px){
+  .offer__inner-item{
+    grid-template-columns:1fr 1fr 1fr; }
+  .offer__price-text{
+    font-size:2.2em; } }
 
 @media (max-width: 787px){
-  .offer__item{
-    max-width:25em;
-    margin-bottom:2em; }
   .offer__text{
     font-size:1.2em; }
   .offer__promotions-text{
@@ -781,9 +794,12 @@ select{
     font-size:2em; } }
 
 @media (max-width: 678px){
+  .offer__inner-item{
+    grid-column-gap:1.5em;
+    grid-row-gap:1.5em; }
   .offer__item{
-    margin-bottom:1.5em;
-    max-width:25em; }
+    margin-bottom:2em;
+    max-width:23em; }
   .offer__text{
     font-size:1em; }
   .offer__promotions-text{
@@ -797,26 +813,11 @@ select{
     padding-top:.5em;
     padding-bottom:.5em; } }
 
-@media (max-width: 568px){
-  .offer__item{
-    max-width:18em; } }
-
 @media (max-width: 468px){
-  .offer__item{
-    max-width:16em; } }
-
-@media (max-width: 420px){
-  .offer__item{
-    max-width:14em; } }
-
-@media (max-width: 385px){
-  .offer__item{
-    max-width:13em; } }
-
-@media (max-width: 340px){
-  .offer__item{
-    max-width:25em;
-    margin:1em auto; } }
+  .offer__inner-item{
+    grid-template-columns:1fr 1fr;
+    grid-column-gap:1em;
+    grid-row-gap:1em; } }
 
 .retailers{
   background:url("../images/letailers/bg.jpg") no-repeat center top;
