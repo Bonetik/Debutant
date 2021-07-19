@@ -18,8 +18,6 @@ $(document).ready(function () {
   var swiper = new Swiper(".mySwiper", {
     slidesPerView: 6,
     spaceBetween: 25,
-    watchSlidesProgress: true,
-    watchSlidesVisibility: true,
     pagination: {
       el: ".swiper-pagination",
       clickable: true
