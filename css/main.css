@@ -882,14 +882,11 @@ select{
   .retailers__cart-text{
     font-size:1.2em;
     line-height:1.5em; }
-  .swiper-container{
-    max-width:1210px;
-    width:100%; }
   .swiper-pagination-bullet{
     background:#FFFFFF; }
   .swiper-slide{
     text-align:center;
-    max-width:20em; } }
+    max-width:22.7em; } }
 
 .section__header{
   padding:3em 0; }
