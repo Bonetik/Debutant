@@ -1,303 +1,355 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
-    <div class="wrapper">
-      <header class="header">
-        <div class="container">
-          <div class="header__inner">
-            <div class="header__item">
-              <div class="header__logo"><a href="#"> <img class="header__logo-img" src="images/header/logo.svg" alt="logo"></a></div>
-            </div>
-            <div class="header__menu-burger">
-              <div class="menu__burger"><img class="menu__img" src="images/burger__menu/menu__open.svg" alt=""></div>
-              <nav class="header__menu">
-                <ul class="header__menu-list"> 
-                  <li class="header__menu-item"><a class="header__menu-link" href="#">Скидки</a></li>
-                  <li class="header__menu-item"><a class="header__menu-link" href="#">Магазины</a></li>
-                  <li class="header__menu-item"><a class="header__menu-link" href="#">Купоны</a></li>
-                  <li class="header__menu-item"><a class="header__menu-link" href="#">Кэшбэк</a></li>
-                </ul>
-              </nav>
-            </div>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+    rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="header__logo"><a href="#"> <img class="header__logo-img" src="images/header/logo.svg"
+                alt="logo"></a></div>
+          <div class="header__menu-burger">
+            <div class="menu__burger"><img class="menu__img" src="images/burger__menu/menu__open.svg" alt=""></div>
+            <nav class="header__menu">
+              <ul class="header__menu-list">
+                <li class="header__menu-item"><a class="header__menu-link" href="#">Скидки</a></li>
+                <li class="header__menu-item"><a class="header__menu-link" href="#">Магазины</a></li>
+                <li class="header__menu-item"><a class="header__menu-link" href="#">Купоны</a></li>
+                <li class="header__menu-item"><a class="header__menu-link" href="#">Кэшбэк</a></li>
+              </ul>
+              <div class="header__item-mobile">
+                <div class="header__location">
+                  <div class="header__location-images"><a href="#"> <img class="header__location-img"
+                        src="images/header/location.svg" alt="location"></a></div>
+                  <div class="header__info"><a class="header__link" href="#">город Казань</a></div>
+                </div>
+                <div class="header__user">
+                  <div class="header__user-images"><a href="#"><img class="header__user-img" src="images/header/user.svg"
+                        alt="user"></a></div>
+                  <div class="header__info"><a class="header__link" href="#">вход</a></div>
+                </div>
+              </div>
+            </nav>
             <div class="header__item-location">
               <div class="header__location">
-                <div class="header__location-images"><a href="#"> <img class="header__location-img" src="images/header/location.svg" alt="location"></a></div>
+                <div class="header__location-images"><a href="#"> <img class="header__location-img"
+                      src="images/header/location.svg" alt="location"></a></div>
                 <div class="header__info"><a class="header__link" href="#">город Казань</a></div>
               </div>
               <div class="header__user">
-                <div class="header__user-images"><a href="#"><img class="header__user-img" src="images/header/user.svg" alt="user"></a></div>
+                <div class="header__user-images"><a href="#"><img class="header__user-img" src="images/header/user.svg"
+                      alt="user"></a></div>
                 <div class="header__info"><a class="header__link" href="#">вход</a></div>
               </div>
             </div>
           </div>
         </div>
-      </header>
-      <main class="main">
-        <section class="retailers"> 
-          <div class="container"> 
-            <div class="retailers__inner"> 
-              <div class="section__header"> 
-                <h2 class="section__title">Скидки в магазинах Казань</h2>
-              </div>
-              <div class="swiper-container mySwiper">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide"><a class="retailers__cart-shop" href="#"> 
-                      <div class="retailers__cart-images"> <img class="retailers__cart-img" src="images/letailers/seeklogo.svg" alt="seeklogo"></div>
-                      <div class="retailers__cart-info"> 
-                        <p class="retailers__cart-text">Придложений</p><span>560</span>
-                      </div>
-                      <div class="retailers__cart-button"><a class="retailers__cart-btn" href="#">Скидки 50%</a></div></a></div>
-                  <div class="swiper-slide"><a class="retailers__cart-shop" href="#"> 
-                      <div class="retailers__cart-images"> <img class="retailers__cart-img" src="images/letailers/seeklogo.svg" alt="seeklogo"></div>
-                      <div class="retailers__cart-info"> 
-                        <p class="retailers__cart-text">Придложений</p><span>560</span>
-                      </div>
-                      <div class="retailers__cart-button"><a class="retailers__cart-btn" href="#">Скидки 50%</a></div></a></div>
-                  <div class="swiper-slide"><a class="retailers__cart-shop" href="#"> 
-                      <div class="retailers__cart-images"> <img class="retailers__cart-img" src="images/letailers/seeklogo.svg" alt="seeklogo"></div>
-                      <div class="retailers__cart-info"> 
-                        <p class="retailers__cart-text">Придложений</p><span>560</span>
-                      </div>
-                      <div class="retailers__cart-button"><a class="retailers__cart-btn" href="#">Скидки 50%</a></div></a></div>
-                  <div class="swiper-slide"><a class="retailers__cart-shop" href="#"> 
-                      <div class="retailers__cart-images"> <img class="retailers__cart-img" src="images/letailers/seeklogo.svg" alt="seeklogo"></div>
-                      <div class="retailers__cart-info"> 
-                        <p class="retailers__cart-text">Придложений</p><span>560</span>
-                      </div>
-                      <div class="retailers__cart-button"><a class="retailers__cart-btn" href="#">Скидки 50%</a></div></a></div>
-                  <div class="swiper-slide"><a class="retailers__cart-shop" href="#"> 
-                      <div class="retailers__cart-images"> <img class="retailers__cart-img" src="images/letailers/seeklogo.svg" alt="seeklogo"></div>
-                      <div class="retailers__cart-info"> 
-                        <p class="retailers__cart-text">Придложений</p><span>560</span>
-                      </div>
-                      <div class="retailers__cart-button"><a class="retailers__cart-btn" href="#">Скидки 50%</a></div></a></div>
-                  <div class="swiper-slide"><a class="retailers__cart-shop" href="#"> 
-                      <div class="retailers__cart-images"> <img class="retailers__cart-img" src="images/letailers/seeklogo.svg" alt="seeklogo"></div>
-                      <div class="retailers__cart-info"> 
-                        <p class="retailers__cart-text">Придложений</p><span>560</span>
-                      </div>
-                      <div class="retailers__cart-button"><a class="retailers__cart-btn" href="#">Скидки 50%</a></div></a></div>
-                  <div class="swiper-slide"><a class="retailers__cart-shop" href="#"> 
-                      <div class="retailers__cart-images"> <img class="retailers__cart-img" src="images/letailers/seeklogo.svg" alt="seeklogo"></div>
-                      <div class="retailers__cart-info"> 
-                        <p class="retailers__cart-text">Придложений</p><span>560</span>
-                      </div>
-                      <div class="retailers__cart-button"><a class="retailers__cart-btn" href="#">Скидки 50%</a></div></a></div>
-                  <div class="swiper-slide"><a class="retailers__cart-shop" href="#"> 
-                      <div class="retailers__cart-images"> <img class="retailers__cart-img" src="images/letailers/seeklogo.svg" alt="seeklogo"></div>
-                      <div class="retailers__cart-info"> 
-                        <p class="retailers__cart-text">Придложений</p><span>560</span>
-                      </div>
-                      <div class="retailers__cart-button"><a class="retailers__cart-btn" href="#">Скидки 50%</a></div></a></div>
-                  <div class="swiper-slide"><a class="retailers__cart-shop" href="#"> 
-                      <div class="retailers__cart-images"> <img class="retailers__cart-img" src="images/letailers/seeklogo.svg" alt="seeklogo"></div>
-                      <div class="retailers__cart-info"> 
-                        <p class="retailers__cart-text">Придложений</p><span>560</span>
-                      </div>
-                      <div class="retailers__cart-button"><a class="retailers__cart-btn" href="#">Скидки 50%</a></div></a></div>
-                  <div class="swiper-slide"><a class="retailers__cart-shop" href="#"> 
-                      <div class="retailers__cart-images"> <img class="retailers__cart-img" src="images/letailers/seeklogo.svg" alt="seeklogo"></div>
-                      <div class="retailers__cart-info"> 
-                        <p class="retailers__cart-text">Придложений</p><span>560</span>
-                      </div>
-                      <div class="retailers__cart-button"><a class="retailers__cart-btn" href="#">Скидки 50%</a></div></a></div>
-                  <div class="swiper-slide"><a class="retailers__cart-shop" href="#"> 
-                      <div class="retailers__cart-images"> <img class="retailers__cart-img" src="images/letailers/seeklogo.svg" alt="seeklogo"></div>
-                      <div class="retailers__cart-info"> 
-                        <p class="retailers__cart-text">Придложений</p><span>560</span>
-                      </div>
-                      <div class="retailers__cart-button"><a class="retailers__cart-btn" href="#">Скидки 50%</a></div></a></div>
-                  <div class="swiper-slide"><a class="retailers__cart-shop" href="#"> 
-                      <div class="retailers__cart-images"> <img class="retailers__cart-img" src="images/letailers/seeklogo.svg" alt="seeklogo"></div>
-                      <div class="retailers__cart-info"> 
-                        <p class="retailers__cart-text">Придложений</p><span>560</span>
-                      </div>
-                      <div class="retailers__cart-button"><a class="retailers__cart-btn" href="#">Скидки 50%</a></div></a></div>
-                </div>
-                <div class="swiper-pagination"></div>
-              </div>
-              <div class="section__button"><a class="section__btn" href="#">Ищо магазинов</a></div>
-            </div>
-          </div>
-        </section>
-        <section class="offer"> 
-          <div class="container">
-            <div class="offer__inner"> 
-              <div class="section__header"> 
-                <h2 class="section__title">Лучшие акции в Казани</h2>
-              </div>
-              <div class="offer__input">
-                <input class="offer__input-item" type="text" placeholder="Поиск акций и торговых сетей">
-                <button class="offer__input-btn">Найти</button>
-              </div>
-            </div>
-            <div class="offer__inner-item">
-              <div class="offer__item"> <a class="offer__item-link" href="#">
-                  <div class="offer__images"> <img class="offer__img" src="images/offer/cerpickh.jpg" alt=""></div>
-                  <div class="offer__info">
-                    <p class="offer__text">Строительный (рабочий) кирпич М-150</p>
-                  </div>
-                  <div class="offer__promotions">
-                    <p class="offer__promotions-text">Акция</p>
-                  </div>
-                  <div class="offer__price"> 
-                    <p class="offer__price-text">от 16 до 25 р.</p>
-                  </div></a></div>
-              <div class="offer__item"> <a class="offer__item-link" href="#">
-                  <div class="offer__images"> <img class="offer__img" src="images/offer/cerpickh.jpg" alt=""></div>
-                  <div class="offer__info">
-                    <p class="offer__text">Строительный (рабочий) кирпич М-150</p>
-                  </div>
-                  <div class="offer__promotions">
-                    <p class="offer__promotions-text">Акция</p>
-                  </div>
-                  <div class="offer__price"> 
-                    <p class="offer__price-text">от 16 до 25 р.</p>
-                  </div></a></div>
-              <div class="offer__item"> <a class="offer__item-link" href="#">
-                  <div class="offer__images"> <img class="offer__img" src="images/offer/cerpickh.jpg" alt=""></div>
-                  <div class="offer__info">
-                    <p class="offer__text">Строительный (рабочий) кирпич М-150</p>
-                  </div>
-                  <div class="offer__promotions">
-                    <p class="offer__promotions-text">Акция</p>
-                  </div>
-                  <div class="offer__price"> 
-                    <p class="offer__price-text">от 16 до 25 р.</p>
-                  </div></a></div>
-              <div class="offer__item"> <a class="offer__item-link" href="#">
-                  <div class="offer__images"> <img class="offer__img" src="images/offer/cerpickh.jpg" alt=""></div>
-                  <div class="offer__info">
-                    <p class="offer__text">Строительный (рабочий) кирпич М-150</p>
-                  </div>
-                  <div class="offer__promotions">
-                    <p class="offer__promotions-text">Акция</p>
-                  </div>
-                  <div class="offer__price"> 
-                    <p class="offer__price-text">от 16 до 25 р.</p>
-                  </div></a></div>
-              <div class="offer__item"> <a class="offer__item-link" href="#">
-                  <div class="offer__images"> <img class="offer__img" src="images/offer/cerpickh.jpg" alt=""></div>
-                  <div class="offer__info">
-                    <p class="offer__text">Строительный (рабочий) кирпич М-150</p>
-                  </div>
-                  <div class="offer__promotions">
-                    <p class="offer__promotions-text">Акция</p>
-                  </div>
-                  <div class="offer__price"> 
-                    <p class="offer__price-text">от 16 до 25 р.</p>
-                  </div></a></div>
-              <div class="offer__item"> <a class="offer__item-link" href="#">
-                  <div class="offer__images"> <img class="offer__img" src="images/offer/cerpickh.jpg" alt=""></div>
-                  <div class="offer__info">
-                    <p class="offer__text">Строительный (рабочий) кирпич М-150</p>
-                  </div>
-                  <div class="offer__promotions">
-                    <p class="offer__promotions-text">Акция</p>
-                  </div>
-                  <div class="offer__price"> 
-                    <p class="offer__price-text">от 16 до 25 р.</p>
-                  </div></a></div>
-              <div class="offer__item"> <a class="offer__item-link" href="#">
-                  <div class="offer__images"> <img class="offer__img" src="images/offer/cerpickh.jpg" alt=""></div>
-                  <div class="offer__info">
-                    <p class="offer__text">Строительный (рабочий) кирпич М-150</p>
-                  </div>
-                  <div class="offer__promotions">
-                    <p class="offer__promotions-text">Акция</p>
-                  </div>
-                  <div class="offer__price"> 
-                    <p class="offer__price-text">от 16 до 25 р.</p>
-                  </div></a></div>
-              <div class="offer__item"> <a class="offer__item-link" href="#">
-                  <div class="offer__images"> <img class="offer__img" src="images/offer/cerpickh.jpg" alt=""></div>
-                  <div class="offer__info">
-                    <p class="offer__text">Строительный (рабочий) кирпич М-150</p>
-                  </div>
-                  <div class="offer__promotions">
-                    <p class="offer__promotions-text">Акция</p>
-                  </div>
-                  <div class="offer__price"> 
-                    <p class="offer__price-text">от 16 до 25 р.</p>
-                  </div></a></div>
-            </div>
-            <div class="section__button"><a class="section__btn" href="#">Показать ищо</a></div>
-          </div>
-        </section>
-        <section class="action"> 
-          <div class="container"> 
-            <div class="action__inner"> 
-              <div class="action__item"><img class="action__img" src="images/action/action__img.png" alt=""></div>
-              <div class="action__item">
-                <div class="action__header"> 
-                  <h2 class="action__title">Купоны в Debutant</h2>
-                </div>
-                <div class="action__info"> 
-                  <p class="action__text">Покажите код купона в магазине или отделении партнера, чтобы получить скидку или подарок</p>
-                </div>
-                <div class="action__button"> <a class="action__btn" href="#">Выбрать купоны</a></div>
-              </div>
-              <div class="action__item"><img class="action__img action__procent" src="images/action/action__procent.png" alt=""></div>
-            </div>
-          </div>
-        </section>
-      </main>
-      <footer class="footer">
+      </div>
+    </header>
+    <main class="main">
+      <section class="retailers">
         <div class="container">
-          <div class="footer__inner"> 
-            <div class="footer__item"> 
-              <div class="footer__header"> 
-                <h3 class="footer__title">Помощь</h3>
-              </div>
-              <nav class="footer__nav">
-                <ul class="footer__nav-list"> 
-                  <li class="footer__nav-item"><a class="footer__nav-link" href="">Инструкции и советы</a></li>
-                  <li class="footer__nav-item"><a class="footer__nav-link" href="">Написать в поддержку</a></li>
-                  <li class="footer__nav-item"><a class="footer__nav-link" href="">Правовые документы</a></li>
-                </ul>
-              </nav>
+          <div class="retailers__inner">
+            <div class="section__header">
+              <h2 class="section__title">Скидки в магазинах Казань</h2>
             </div>
-            <div class="footer__item"> 
-              <div class="footer__header"> 
-                <h3 class="footer__title">Debutant с соцсетях</h3>
+            <div class="swiper-container mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><a class="retailers__cart-shop" href="#">
+                    <div class="retailers__cart-images"> <img class="retailers__cart-img"
+                        src="images/letailers/seeklogo.svg" alt="seeklogo"></div>
+                    <div class="retailers__cart-info">
+                      <p class="retailers__cart-text">Придложений</p><span>560</span>
+                    </div>
+                    <div class="retailers__cart-button"><a class="retailers__cart-btn" href="#">Скидки 50%</a></div>
+                  </a></div>
+                <div class="swiper-slide"><a class="retailers__cart-shop" href="#">
+                    <div class="retailers__cart-images"> <img class="retailers__cart-img"
+                        src="images/letailers/seeklogo.svg" alt="seeklogo"></div>
+                    <div class="retailers__cart-info">
+                      <p class="retailers__cart-text">Придложений</p><span>560</span>
+                    </div>
+                    <div class="retailers__cart-button"><a class="retailers__cart-btn" href="#">Скидки 50%</a></div>
+                  </a></div>
+                <div class="swiper-slide"><a class="retailers__cart-shop" href="#">
+                    <div class="retailers__cart-images"> <img class="retailers__cart-img"
+                        src="images/letailers/seeklogo.svg" alt="seeklogo"></div>
+                    <div class="retailers__cart-info">
+                      <p class="retailers__cart-text">Придложений</p><span>560</span>
+                    </div>
+                    <div class="retailers__cart-button"><a class="retailers__cart-btn" href="#">Скидки 50%</a></div>
+                  </a></div>
+                <div class="swiper-slide"><a class="retailers__cart-shop" href="#">
+                    <div class="retailers__cart-images"> <img class="retailers__cart-img"
+                        src="images/letailers/seeklogo.svg" alt="seeklogo"></div>
+                    <div class="retailers__cart-info">
+                      <p class="retailers__cart-text">Придложений</p><span>560</span>
+                    </div>
+                    <div class="retailers__cart-button"><a class="retailers__cart-btn" href="#">Скидки 50%</a></div>
+                  </a></div>
+                <div class="swiper-slide"><a class="retailers__cart-shop" href="#">
+                    <div class="retailers__cart-images"> <img class="retailers__cart-img"
+                        src="images/letailers/seeklogo.svg" alt="seeklogo"></div>
+                    <div class="retailers__cart-info">
+                      <p class="retailers__cart-text">Придложений</p><span>560</span>
+                    </div>
+                    <div class="retailers__cart-button"><a class="retailers__cart-btn" href="#">Скидки 50%</a></div>
+                  </a></div>
+                <div class="swiper-slide"><a class="retailers__cart-shop" href="#">
+                    <div class="retailers__cart-images"> <img class="retailers__cart-img"
+                        src="images/letailers/seeklogo.svg" alt="seeklogo"></div>
+                    <div class="retailers__cart-info">
+                      <p class="retailers__cart-text">Придложений</p><span>560</span>
+                    </div>
+                    <div class="retailers__cart-button"><a class="retailers__cart-btn" href="#">Скидки 50%</a></div>
+                  </a></div>
+                <div class="swiper-slide"><a class="retailers__cart-shop" href="#">
+                    <div class="retailers__cart-images"> <img class="retailers__cart-img"
+                        src="images/letailers/seeklogo.svg" alt="seeklogo"></div>
+                    <div class="retailers__cart-info">
+                      <p class="retailers__cart-text">Придложений</p><span>560</span>
+                    </div>
+                    <div class="retailers__cart-button"><a class="retailers__cart-btn" href="#">Скидки 50%</a></div>
+                  </a></div>
+                <div class="swiper-slide"><a class="retailers__cart-shop" href="#">
+                    <div class="retailers__cart-images"> <img class="retailers__cart-img"
+                        src="images/letailers/seeklogo.svg" alt="seeklogo"></div>
+                    <div class="retailers__cart-info">
+                      <p class="retailers__cart-text">Придложений</p><span>560</span>
+                    </div>
+                    <div class="retailers__cart-button"><a class="retailers__cart-btn" href="#">Скидки 50%</a></div>
+                  </a></div>
+                <div class="swiper-slide"><a class="retailers__cart-shop" href="#">
+                    <div class="retailers__cart-images"> <img class="retailers__cart-img"
+                        src="images/letailers/seeklogo.svg" alt="seeklogo"></div>
+                    <div class="retailers__cart-info">
+                      <p class="retailers__cart-text">Придложений</p><span>560</span>
+                    </div>
+                    <div class="retailers__cart-button"><a class="retailers__cart-btn" href="#">Скидки 50%</a></div>
+                  </a></div>
+                <div class="swiper-slide"><a class="retailers__cart-shop" href="#">
+                    <div class="retailers__cart-images"> <img class="retailers__cart-img"
+                        src="images/letailers/seeklogo.svg" alt="seeklogo"></div>
+                    <div class="retailers__cart-info">
+                      <p class="retailers__cart-text">Придложений</p><span>560</span>
+                    </div>
+                    <div class="retailers__cart-button"><a class="retailers__cart-btn" href="#">Скидки 50%</a></div>
+                  </a></div>
+                <div class="swiper-slide"><a class="retailers__cart-shop" href="#">
+                    <div class="retailers__cart-images"> <img class="retailers__cart-img"
+                        src="images/letailers/seeklogo.svg" alt="seeklogo"></div>
+                    <div class="retailers__cart-info">
+                      <p class="retailers__cart-text">Придложений</p><span>560</span>
+                    </div>
+                    <div class="retailers__cart-button"><a class="retailers__cart-btn" href="#">Скидки 50%</a></div>
+                  </a></div>
+                <div class="swiper-slide"><a class="retailers__cart-shop" href="#">
+                    <div class="retailers__cart-images"> <img class="retailers__cart-img"
+                        src="images/letailers/seeklogo.svg" alt="seeklogo"></div>
+                    <div class="retailers__cart-info">
+                      <p class="retailers__cart-text">Придложений</p><span>560</span>
+                    </div>
+                    <div class="retailers__cart-button"><a class="retailers__cart-btn" href="#">Скидки 50%</a></div>
+                  </a></div>
               </div>
-              <nav class="footer__nav">
-                <ul class="footer__nav-list"> 
-                  <li class="footer__nav-item"><a class="footer__nav-link" href="">ВКонтакте</a></li>
-                  <li class="footer__nav-item"><a class="footer__nav-link" href="">Инстаграм</a></li>
-                </ul>
-              </nav>
+              <div class="swiper-pagination"></div>
             </div>
-            <div class="footer__item"> 
-              <div class="footer__header"> 
-                <h3 class="footer__title">Правообладателям</h3>
-              </div>
-              <nav class="footer__nav">
-                <ul class="footer__nav-list"> 
-                  <li class="footer__nav-item"><a class="footer__nav-link" href="">О предъявлении претензий</a></li>
-                </ul>
-              </nav>
-            </div>
+            <div class="section__button"><a class="section__btn" href="#">Ищо магазинов</a></div>
           </div>
         </div>
-        <div class="footer__copyright">
-          <p class="footer__copyright-text">© Debutant, 2021</p>
+      </section>
+      <section class="offer">
+        <div class="container">
+          <div class="offer__inner">
+            <div class="section__header">
+              <h2 class="section__title">Лучшие акции в Казани</h2>
+            </div>
+            <div class="offer__input">
+              <input class="offer__input-item" type="text" placeholder="Поиск акций и торговых сетей">
+              <button class="offer__input-btn">Найти</button>
+            </div>
+          </div>
+          <div class="offer__inner-item">
+            <div class="offer__item"> <a class="offer__item-link" href="#">
+                <div class="offer__images"> <img class="offer__img" src="images/offer/cerpickh.jpg" alt=""></div>
+                <div class="offer__info">
+                  <p class="offer__text">Строительный (рабочий) кирпич М-150</p>
+                </div>
+                <div class="offer__promotions">
+                  <p class="offer__promotions-text">Акция</p>
+                </div>
+                <div class="offer__price">
+                  <p class="offer__price-text">от 16 до 25 р.</p>
+                </div>
+              </a></div>
+            <div class="offer__item"> <a class="offer__item-link" href="#">
+                <div class="offer__images"> <img class="offer__img" src="images/offer/cerpickh.jpg" alt=""></div>
+                <div class="offer__info">
+                  <p class="offer__text">Строительный (рабочий) кирпич М-150</p>
+                </div>
+                <div class="offer__promotions">
+                  <p class="offer__promotions-text">Акция</p>
+                </div>
+                <div class="offer__price">
+                  <p class="offer__price-text">от 16 до 25 р.</p>
+                </div>
+              </a></div>
+            <div class="offer__item"> <a class="offer__item-link" href="#">
+                <div class="offer__images"> <img class="offer__img" src="images/offer/cerpickh.jpg" alt=""></div>
+                <div class="offer__info">
+                  <p class="offer__text">Строительный (рабочий) кирпич М-150</p>
+                </div>
+                <div class="offer__promotions">
+                  <p class="offer__promotions-text">Акция</p>
+                </div>
+                <div class="offer__price">
+                  <p class="offer__price-text">от 16 до 25 р.</p>
+                </div>
+              </a></div>
+            <div class="offer__item"> <a class="offer__item-link" href="#">
+                <div class="offer__images"> <img class="offer__img" src="images/offer/cerpickh.jpg" alt=""></div>
+                <div class="offer__info">
+                  <p class="offer__text">Строительный (рабочий) кирпич М-150</p>
+                </div>
+                <div class="offer__promotions">
+                  <p class="offer__promotions-text">Акция</p>
+                </div>
+                <div class="offer__price">
+                  <p class="offer__price-text">от 16 до 25 р.</p>
+                </div>
+              </a></div>
+            <div class="offer__item"> <a class="offer__item-link" href="#">
+                <div class="offer__images"> <img class="offer__img" src="images/offer/cerpickh.jpg" alt=""></div>
+                <div class="offer__info">
+                  <p class="offer__text">Строительный (рабочий) кирпич М-150</p>
+                </div>
+                <div class="offer__promotions">
+                  <p class="offer__promotions-text">Акция</p>
+                </div>
+                <div class="offer__price">
+                  <p class="offer__price-text">от 16 до 25 р.</p>
+                </div>
+              </a></div>
+            <div class="offer__item"> <a class="offer__item-link" href="#">
+                <div class="offer__images"> <img class="offer__img" src="images/offer/cerpickh.jpg" alt=""></div>
+                <div class="offer__info">
+                  <p class="offer__text">Строительный (рабочий) кирпич М-150</p>
+                </div>
+                <div class="offer__promotions">
+                  <p class="offer__promotions-text">Акция</p>
+                </div>
+                <div class="offer__price">
+                  <p class="offer__price-text">от 16 до 25 р.</p>
+                </div>
+              </a></div>
+            <div class="offer__item"> <a class="offer__item-link" href="#">
+                <div class="offer__images"> <img class="offer__img" src="images/offer/cerpickh.jpg" alt=""></div>
+                <div class="offer__info">
+                  <p class="offer__text">Строительный (рабочий) кирпич М-150</p>
+                </div>
+                <div class="offer__promotions">
+                  <p class="offer__promotions-text">Акция</p>
+                </div>
+                <div class="offer__price">
+                  <p class="offer__price-text">от 16 до 25 р.</p>
+                </div>
+              </a></div>
+            <div class="offer__item"> <a class="offer__item-link" href="#">
+                <div class="offer__images"> <img class="offer__img" src="images/offer/cerpickh.jpg" alt=""></div>
+                <div class="offer__info">
+                  <p class="offer__text">Строительный (рабочий) кирпич М-150</p>
+                </div>
+                <div class="offer__promotions">
+                  <p class="offer__promotions-text">Акция</p>
+                </div>
+                <div class="offer__price">
+                  <p class="offer__price-text">от 16 до 25 р.</p>
+                </div>
+              </a></div>
+          </div>
+          <div class="section__button"><a class="section__btn" href="#">Показать ищо</a></div>
         </div>
-      </footer>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="js/app.js"></script>
-  </body>
+      </section>
+      <section class="action">
+        <div class="container">
+          <div class="action__inner">
+            <div class="action__item"><img class="action__img" src="images/action/action__img.png" alt=""></div>
+            <div class="action__item">
+              <div class="action__header">
+                <h2 class="action__title">Купоны в Debutant</h2>
+              </div>
+              <div class="action__info">
+                <p class="action__text">Покажите код купона в магазине или отделении партнера, чтобы получить скидку или
+                  подарок</p>
+              </div>
+              <div class="action__button"> <a class="action__btn" href="#">Выбрать купоны</a></div>
+            </div>
+            <div class="action__item"><img class="action__img action__procent" src="images/action/action__procent.png"
+                alt=""></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__item">
+            <div class="footer__header">
+              <h3 class="footer__title">Помощь</h3>
+            </div>
+            <nav class="footer__nav">
+              <ul class="footer__nav-list">
+                <li class="footer__nav-item"><a class="footer__nav-link" href="">Инструкции и советы</a></li>
+                <li class="footer__nav-item"><a class="footer__nav-link" href="">Написать в поддержку</a></li>
+                <li class="footer__nav-item"><a class="footer__nav-link" href="">Правовые документы</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer__item">
+            <div class="footer__header">
+              <h3 class="footer__title">Debutant с соцсетях</h3>
+            </div>
+            <nav class="footer__nav">
+              <ul class="footer__nav-list">
+                <li class="footer__nav-item"><a class="footer__nav-link" href="">ВКонтакте</a></li>
+                <li class="footer__nav-item"><a class="footer__nav-link" href="">Инстаграм</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer__item">
+            <div class="footer__header">
+              <h3 class="footer__title">Правообладателям</h3>
+            </div>
+            <nav class="footer__nav">
+              <ul class="footer__nav-list">
+                <li class="footer__nav-item"><a class="footer__nav-link" href="">О предъявлении претензий</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <p class="footer__copyright-text">© Debutant, 2021</p>
+      </div>
+    </footer>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
 </html>
